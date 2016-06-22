@@ -1,0 +1,23 @@
+{
+  "name": "node-digest-auth-request",
+  "version": "0.0.1",
+  "description": "A http request util which supports http digest authentication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devxleo/node-digest-auth-request.git"
+  },
+  "keywords": [
+    "http",
+    "digest auth"
+  ],
+  "author": "devxleo <devxleo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devxleo/node-digest-auth-request/issues"
+  },
+  "homepage": "https://github.com/devxleo/node-digest-auth-request#readme"
+}
