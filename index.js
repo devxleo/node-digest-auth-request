@@ -74,16 +74,8 @@ function request(option, callback) {
 		var nonceCount = '00000001';
 		var cnonce = '0a4f113b';
 		var response = md5(`${ha1}:${nonce}:${nonceCount}:${cnonce}:${qop}:${ha2}`);
-		var authHeader = `Digest \
-					username="${username}", \
-					realm="${realm}", \
-					nonce="${nonce}", \
-					uri="${path}", \
-					qop=${qop}, \
-					nc=${nonceCount}, \
-					cnonce="${cnonce}", \
-					response="${response}"`;
-					
+		var authHeader = `Digest username="${username}", realm="${realm}", nonce="${nonce}", uri="${path}", qop=${qop}, nc=${nonceCount}, cnonce="${cnonce}", response="${response}"`;
+		
 		var reqTwoOption = {
 			hostname: hostname,
 			path: path,
