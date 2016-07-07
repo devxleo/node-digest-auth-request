@@ -1,6 +1,6 @@
 {
   "name": "node-digest-auth-request",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A http request util which supports http digest authentication.",
   "main": "index.js",
   "repository": {
